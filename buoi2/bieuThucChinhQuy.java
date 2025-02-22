@@ -10,13 +10,7 @@ public class bieuThucChinhQuy {
             }
         
             private static void thongTinNV() {
-               /* 
-                String reMatKhau = ".{6,}";
-                String reHoTen = "[a-zA-z]+";
-                String reEmail = "\\w+@\\w+(\\. \\w+){1,2}";
-                String matKhau = sc.nextLine();
-                String hoTen = sc.nextLine();
-                String email = sc.nextLine(); */
+               
                 while (true) {
                     System.out.println("Nhap ma nv (5 ky tu ))");
                     String maNV = sc.nextLine();
