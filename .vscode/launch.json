@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListtest",
+            "request": "launch",
+            "mainClass": "buoi1.ArrayListtest",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "buoi1.Login",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "Sapxepdiem",
+            "request": "launch",
+            "mainClass": "buoi1.Sapxepdiem",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "Tongcacsotrongchuoi",
+            "request": "launch",
+            "mainClass": "buoi1.Tongcacsotrongchuoi",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "bieuThucChinhQuy",
+            "request": "launch",
+            "mainClass": "buoi2.bieuThucChinhQuy",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "chuoiPhanCach",
+            "request": "launch",
+            "mainClass": "buoi2.chuoiPhanCach",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "qlsv",
+            "request": "launch",
+            "mainClass": "buoi2.qlsv",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "HoaDon",
+            "request": "launch",
+            "mainClass": "buoi3.bt.HoaDon",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "sV",
+            "request": "launch",
+            "mainClass": "buoi3.bt.sV",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "hinhCN",
+            "request": "launch",
+            "mainClass": "buoi3.hinhCN",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "sV(1)",
+            "request": "launch",
+            "mainClass": "buoi3.sV",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "toaDo",
+            "request": "launch",
+            "mainClass": "buoi3.toaDo",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "AppSanPham",
+            "request": "launch",
+            "mainClass": "buoi4.AppSanPham",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi5.demo.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "buoi5.demo2.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "LTHDT_3aca24c2"
+        }
+    ]
+}

@@ -11,5 +11,6 @@ public class Tongcacsotrongchuoi {
             char f = n.charAt(i);
             System.out.println(f);
         }
+        
     }
 }
