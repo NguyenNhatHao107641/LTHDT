@@ -17,7 +17,7 @@ public class NVSX extends NhanVien {
         return soSanPham;
     }
 
-    public void getSoSanPham(double newSoSanPham){
+    public void setSoSanPham(double newSoSanPham){
         this.soSanPham = newSoSanPham;
     }
 
