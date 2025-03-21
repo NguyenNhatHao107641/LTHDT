@@ -15,6 +15,7 @@ public class App {
          while(true){
             System.err.println("1.Nhap nhan vien san xuat");
             System.err.println("2.Nhap nhan vien van phong");
+            System.err.println("3.Nhap nhan vien");
             System.err.println("0.Thoat");
 
             System.out.print("nhap lua chon cua ban: ");
@@ -40,6 +41,8 @@ public class App {
                 soNgayNghi = Double.parseDouble(sc.nextLine());
                 NhanVien nVVP = new NVVP(hoTen, dateCongTac, mucLuong, soNgayNghi);
                 ds.add(nVVP);
+            }else if(lC.equalsIgnoreCase("3")){
+                NhanVien nV = new NhanVien(hoTen, dateCongTac);
             }
 
          }
@@ -64,7 +67,7 @@ public class App {
                 }
                 System.out.print(Tong);
             }else if (lC.equalsIgnoreCase("3")){
-                System.out.print("danh sach nhan vien lam viec tren 7 nam ");
+                System.out.println("danh sach nhan vien lam viec tren 7 nam ");
                 for(NhanVien nV : ds){
                     if (nV.getDateCongTac()>=7) {
                         System.out.print(nV.toString());
