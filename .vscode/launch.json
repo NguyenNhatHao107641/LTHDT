@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi11.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi9.QuanLyNhanSu1.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "QuanLyNhanSu",
+            "request": "launch",
+            "mainClass": "buoi9.QuanLyNhanSu",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "QuanLyNhanVien",
+            "request": "launch",
+            "mainClass": "buoi9.QuanLyNhanVien",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "LTHDT.buoi7.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi7.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi6.demo2.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi6.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "buoi6.demo1.App",
+            "projectName": "LTHDT_3aca24c2"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
