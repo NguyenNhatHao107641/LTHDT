@@ -1,7 +1,11 @@
 package buoi11;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
+import java.util.stream.Collector;
 
 public class App {
     static Scanner sc = new Scanner(System.in);
@@ -66,12 +70,18 @@ public class App {
         }
     }
 
+    public static void sapXep(){
+        Collections.sort(ds, Comparator.comparingDouble(Thuoc::giaBan).reversed());
+        for(Thuoc t : ds)System.out.println(t.toString());
+    }
+
     public static void main(String[] args) {
         while (true) {
             System.out.println("1.Nhap thuoc");
             System.out.println("2.In ra thuoc");
             System.out.println("3.In thuoc NK có giá trên 100");
             System.out.println("4.Tim thuoc");
+            System.out.println("5.Sap xep thuoc dua tren gia thuco");
             System.out.println("0.Thoat");
 
 
@@ -87,7 +97,7 @@ public class App {
                 inThuocNK();
             }else if(lC.equals("4")){
                 timThuoc();
-            }
+            }else if(lC.equals("5")) sapXep();
         }
     }
 

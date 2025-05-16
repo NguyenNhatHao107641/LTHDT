@@ -15,6 +15,7 @@ public abstract class Thuoc implements IThuoc {
         this.donGia = donGia;
     }
 
+
     public String getMa() {
         return this.ma;
     }
